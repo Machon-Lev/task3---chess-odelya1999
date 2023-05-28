@@ -1,3 +1,8 @@
+/****************
+Odelya Yakowich
+207346784
+*****************/
+
 #pragma once
 #include <iostream>
 #include <Windows.h>
@@ -36,5 +41,5 @@ public:
 	Chess(const Chess&)=delete;
 	Chess& operator=(const Chess&) = delete;
 	string getInput();
-	void setCodeResponse(int codeResponse);
+	void setCodeGame(int codeResponse);
 };

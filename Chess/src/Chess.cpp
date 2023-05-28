@@ -1,4 +1,10 @@
-	#include "Chess.h"
+/****************
+Odelya Yakowich
+207346784
+*****************/
+
+
+#include "Chess.h"
 
 // clear the screen "cls"
 void Chess::clear() const 
@@ -248,7 +254,7 @@ string Chess::getInput()
 	return m_input;
 }
 
-void Chess::setCodeResponse(int codeResponse)
+void Chess::setCodeGame(int codeResponse)
 {
 	if (((11 <= codeResponse) && (codeResponse <= 13)) ||
 		((21 == codeResponse) || (codeResponse == 31)) ||
